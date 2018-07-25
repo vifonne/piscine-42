@@ -1,0 +1,1 @@
+cat /etc/passwd | sed '/^\#/d' | awk '{if(NR%2==0) print$0}' | cut -d ":" -f 1 | rev | sort -r | awk -v line1="$FT_LINE1" -v line2="$FT_LINE2" '{if(NR>=line1 && NR<=line2)print$0","}' | tr '\n' ' ' | sed 's/, $/./g' | tr -d '\n$'

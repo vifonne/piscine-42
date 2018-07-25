@@ -1,0 +1,5 @@
+Credentials cache: API:18A31F96-1D39-4799-AC4C-2C3A6F8718AB
+        Principal: vifonne@42.FR
+
+  Issued                Expires               Principal
+Jul  2 10:42:00 2018  Jul  9 10:41:54 2018  krbtgt/42.FR@42.FR
